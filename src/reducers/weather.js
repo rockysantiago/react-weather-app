@@ -1,9 +1,9 @@
 import { FETCH_WEATHER } from 'actions/types';
 
-export default (state = null, action) => {
+export default (state = [], action) => {
   switch (action.type) {
     case FETCH_WEATHER:
-      return action.payload;
+      return [action.payload.data, ...state];
   }
   return state;
 };
