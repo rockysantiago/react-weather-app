@@ -1956,7 +1956,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.6.0:
+prop-types@^15.5.10, prop-types@^15.6.0:
   version "15.6.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   dependencies:
@@ -2048,9 +2048,15 @@ react-redux@5.0.7:
     loose-envify "^1.1.0"
     prop-types "^15.6.0"
 
-react@16.3.2:
-  version "16.3.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.3.2.tgz#fdc8420398533a1e58872f59091b272ce2f91ea9"
+react-sparklines@^1.6.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/react-sparklines/-/react-sparklines-1.7.0.tgz#9b1d97e8c8610095eeb2ad658d2e1fcf91f91a60"
+  dependencies:
+    prop-types "^15.5.10"
+
+react@16.3.1:
+  version "16.3.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.3.1.tgz#4a2da433d471251c69b6033ada30e2ed1202cfd8"
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
